@@ -1,4 +1,4 @@
-FROM openjdk:17-slim
+FROM openjdk:17.0.2-jdk
 WORKDIR /opt/app
 
 COPY /target/spring-petclinic-*.jar /opt/app/ROOT.jar
